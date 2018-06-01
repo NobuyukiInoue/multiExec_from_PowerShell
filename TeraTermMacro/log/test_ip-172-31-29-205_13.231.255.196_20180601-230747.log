@@ -1,0 +1,659 @@
+pwd
+/home/test
+test@ip-172-31-29-205:~$ 
+test@ip-172-31-29-205:~$ whoami
+test
+test@ip-172-31-29-205:~$ 
+test@ip-172-31-29-205:~$ who
+test     pts/0        2018-06-01 23:07 (ab161101.dynamic.ppp.asahi-net.or.jp)
+test     pts/2        2018-06-01 23:07 (ab161101.dynamic.ppp.asahi-net.or.jp)
+test     pts/1        2018-06-01 23:07 (ab161101.dynamic.ppp.asahi-net.or.jp)
+test     pts/3        2018-06-01 23:07 (ab161101.dynamic.ppp.asahi-net.or.jp)
+test@ip-172-31-29-205:~$ 
+test@ip-172-31-29-205:~$ ls -al
+合計 40
+drwxr-xr-x 3 test test  4096  5月 16 15:22 .
+drwxr-xr-x 5 root root  4096  5月 16 15:16 ..
+-rw------- 1 test test 13447  6月  1 23:06 .bash_history
+-rw-r--r-- 1 test test   220  5月 16 15:16 .bash_logout
+-rw-r--r-- 1 test test  3771  5月 16 15:16 .bashrc
+drwx------ 2 test test  4096  5月 16 15:22 .cache
+-rw-r--r-- 1 test test   655  5月 16 15:16 .profile
+test@ip-172-31-29-205:~$ 
+test@ip-172-31-29-205:~$ ps -ef
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 22:56 ?        00:00:03 /sbin/init
+root         2     0  0 22:56 ?        00:00:00 [kthreadd]
+root         3     2  0 22:56 ?        00:00:00 [ksoftirqd/0]
+root         4     2  0 22:56 ?        00:00:00 [kworker/0:0]
+root         5     2  0 22:56 ?        00:00:00 [kworker/0:0H]
+root         6     2  0 22:56 ?        00:00:00 [kworker/u30:0]
+root         7     2  0 22:56 ?        00:00:00 [rcu_sched]
+root         8     2  0 22:56 ?        00:00:00 [rcu_bh]
+root         9     2  0 22:56 ?        00:00:00 [migration/0]
+root        10     2  0 22:56 ?        00:00:00 [watchdog/0]
+root        11     2  0 22:56 ?        00:00:00 [kdevtmpfs]
+root        12     2  0 22:56 ?        00:00:00 [netns]
+root        13     2  0 22:56 ?        00:00:00 [perf]
+root        14     2  0 22:56 ?        00:00:00 [xenwatch]
+root        15     2  0 22:56 ?        00:00:00 [xenbus]
+root        17     2  0 22:56 ?        00:00:00 [khungtaskd]
+root        18     2  0 22:56 ?        00:00:00 [writeback]
+root        19     2  0 22:56 ?        00:00:00 [ksmd]
+root        20     2  0 22:56 ?        00:00:00 [khugepaged]
+root        21     2  0 22:56 ?        00:00:00 [crypto]
+root        22     2  0 22:56 ?        00:00:00 [kintegrityd]
+root        23     2  0 22:56 ?        00:00:00 [bioset]
+root        24     2  0 22:56 ?        00:00:00 [kblockd]
+root        25     2  0 22:56 ?        00:00:00 [ata_sff]
+root        26     2  0 22:56 ?        00:00:00 [md]
+root        27     2  0 22:56 ?        00:00:00 [devfreq_wq]
+root        28     2  0 22:56 ?        00:00:00 [kworker/u30:1]
+root        30     2  0 22:56 ?        00:00:00 [kswapd0]
+root        31     2  0 22:56 ?        00:00:00 [vmstat]
+root        32     2  0 22:56 ?        00:00:00 [fsnotify_mark]
+root        33     2  0 22:56 ?        00:00:00 [ecryptfs-kthrea]
+root        49     2  0 22:56 ?        00:00:00 [kthrotld]
+root        50     2  0 22:56 ?        00:00:00 [bioset]
+root        51     2  0 22:56 ?        00:00:00 [bioset]
+root        52     2  0 22:56 ?        00:00:00 [bioset]
+root        53     2  0 22:56 ?        00:00:00 [bioset]
+root        54     2  0 22:56 ?        00:00:00 [bioset]
+root        55     2  0 22:56 ?        00:00:00 [bioset]
+root        56     2  0 22:56 ?        00:00:00 [bioset]
+root        57     2  0 22:56 ?        00:00:00 [bioset]
+root        58     2  0 22:56 ?        00:00:00 [bioset]
+root        59     2  0 22:56 ?        00:00:00 [bioset]
+root        60     2  0 22:56 ?        00:00:00 [bioset]
+root        61     2  0 22:56 ?        00:00:00 [bioset]
+root        62     2  0 22:56 ?        00:00:00 [bioset]
+root        63     2  0 22:56 ?        00:00:00 [bioset]
+root        64     2  0 22:56 ?        00:00:00 [bioset]
+root        65     2  0 22:56 ?        00:00:00 [bioset]
+root        66     2  0 22:56 ?        00:00:00 [bioset]
+root        67     2  0 22:56 ?        00:00:00 [bioset]
+root        68     2  0 22:56 ?        00:00:00 [bioset]
+root        69     2  0 22:56 ?        00:00:00 [bioset]
+root        70     2  0 22:56 ?        00:00:00 [bioset]
+root        71     2  0 22:56 ?        00:00:00 [bioset]
+root        72     2  0 22:56 ?        00:00:00 [bioset]
+root        73     2  0 22:56 ?        00:00:00 [bioset]
+root        74     2  0 22:56 ?        00:00:00 [scsi_eh_0]
+root        75     2  0 22:56 ?        00:00:00 [scsi_tmf_0]
+root        76     2  0 22:56 ?        00:00:00 [scsi_eh_1]
+root        77     2  0 22:56 ?        00:00:00 [scsi_tmf_1]
+root        79     2  0 22:56 ?        00:00:00 [bioset]
+root        83     2  0 22:56 ?        00:00:00 [ipv6_addrconf]
+root        96     2  0 22:56 ?        00:00:00 [deferwq]
+root       248     2  0 22:56 ?        00:00:00 [raid5wq]
+root       279     2  0 22:56 ?        00:00:00 [bioset]
+root       301     2  0 22:56 ?        00:00:00 [jbd2/xvda1-8]
+root       302     2  0 22:56 ?        00:00:00 [ext4-rsv-conver]
+root       360     2  0 22:56 ?        00:00:00 [kworker/0:2]
+root       368     2  0 22:56 ?        00:00:00 [kworker/0:1H]
+root       406     2  0 22:56 ?        00:00:00 [iscsi_eh]
+root       411     2  0 22:56 ?        00:00:00 [ib_addr]
+root       420     1  0 22:56 ?        00:00:00 /lib/systemd/systemd-journald
+root       424     2  0 22:56 ?        00:00:00 [ib_mcast]
+root       426     2  0 22:56 ?        00:00:00 [ib_nl_sa_wq]
+root       428     2  0 22:56 ?        00:00:00 [ib_cm]
+root       432     2  0 22:56 ?        00:00:00 [iw_cm_wq]
+root       437     2  0 22:56 ?        00:00:00 [rdma_cm]
+root       451     2  0 22:56 ?        00:00:00 [kauditd]
+root       503     1  0 22:56 ?        00:00:00 /sbin/lvmetad -f
+root       537     1  0 22:56 ?        00:00:00 /lib/systemd/systemd-udevd
+systemd+   645     1  0 22:56 ?        00:00:00 /lib/systemd/systemd-timesyncd
+root      1005     1  0 22:56 ?        00:00:00 /sbin/dhclient -1 -v -pf /run/dh
+root      1233     1  0 22:56 ?        00:00:00 /sbin/iscsid
+root      1234     1  0 22:56 ?        00:00:00 /sbin/iscsid
+syslog    1239     1  0 22:56 ?        00:00:00 /usr/sbin/rsyslogd -n
+root      1245     1  0 22:56 ?        00:00:00 /usr/sbin/sshd -D
+root      1248     1  0 22:56 ?        00:00:00 /usr/sbin/cron -f
+root      1251     1  0 22:56 ?        00:00:00 /lib/systemd/systemd-logind
+root      1256     1  0 22:56 ?        00:00:00 /usr/lib/accountsservice/account
+message+  1262     1  0 22:56 ?        00:00:00 /usr/bin/dbus-daemon --system --
+root      1269     1  0 22:56 ?        00:00:00 /usr/sbin/acpid
+root      1285     1  0 22:56 ?        00:00:00 /usr/bin/lxcfs /var/lib/lxcfs/
+daemon    1300     1  0 22:56 ?        00:00:00 /usr/sbin/atd -f
+mysql     1326     1  0 22:56 ?        00:00:00 /usr/sbin/mysqld
+root      1362     1  0 22:57 ?        00:00:00 /sbin/mdadm --monitor --pid-file
+root      1370     1  0 22:57 ?        00:00:00 /usr/lib/policykit-1/polkitd --n
+root      1427     1  0 22:57 ?        00:00:00 nginx: master process /usr/sbin/
+nginx     1428  1427  0 22:57 ?        00:00:00 nginx: worker process
+root      1456     1  0 22:57 ?        00:00:00 php-fpm: master process (/etc/ph
+root      1489     1  0 22:57 tty1     00:00:00 /sbin/agetty --noclear tty1 linu
+root      1495     1  0 22:57 ttyS0    00:00:00 /sbin/agetty --keep-baud 115200 
+snmp      1498     1  0 22:57 ?        00:00:00 /usr/local/sbin/snmpd -Lsd -Lf /
+www-data  1507  1456  0 22:57 ?        00:00:00 php-fpm: pool www
+www-data  1508  1456  0 22:57 ?        00:00:00 php-fpm: pool www
+www-data  1509  1456  0 22:57 ?        00:00:00 php-fpm: pool www
+td-agent  1560     1  0 22:57 ?        00:00:00 /opt/td-agent/embedded/bin/ruby 
+td-agent  1563  1560  0 22:57 ?        00:00:00 /opt/td-agent/embedded/bin/ruby 
+root      1693     1  0 22:57 ?        00:00:00 /usr/lib/postfix/sbin/master
+postfix   1694  1693  0 22:57 ?        00:00:00 pickup -l -t unix -u -c
+postfix   1695  1693  0 22:57 ?        00:00:00 qmgr -l -t unix -u
+root      1738     2  0 22:58 ?        00:00:00 [kworker/0:4]
+tomcat8   3240     1  1 22:59 ?        00:00:07 /usr/lib/jvm/java-8-oracle/bin/j
+root      4550     1  0 23:00 ?        00:00:00 /usr/lib/snapd/snapd
+root      8498     1  0 23:02 ?        00:00:00 /usr/sbin/inetutils-inetd
+root      8528     2  0 23:05 ?        00:00:00 [kworker/0:1]
+root      8530     2  0 23:05 ?        00:00:00 [kworker/0:3]
+root      8705     2  0 23:06 ?        00:00:00 [kworker/0:5]
+root      8772     2  0 23:06 ?        00:00:00 [kworker/0:6]
+root      8773  8498  0 23:07 ?        00:00:00 in.telnetd: ab161101.dynamic.ppp
+root      8774  8498  0 23:07 ?        00:00:00 in.telnetd: ab161101.dynamic.ppp
+root      8775  8498  0 23:07 ?        00:00:00 in.telnetd: ab161101.dynamic.ppp
+root      8776  8498  0 23:07 ?        00:00:00 in.telnetd: ab161101.dynamic.ppp
+root      8777  8773  0 23:07 pts/0    00:00:00 login -h ab161101.dynamic.ppp.as
+root      8778  8774  0 23:07 pts/1    00:00:00 login -h ab161101.dynamic.ppp.as
+root      8779  8776  0 23:07 pts/3    00:00:00 login -h ab161101.dynamic.ppp.as
+root      8780  8775  0 23:07 pts/2    00:00:00 login -h ab161101.dynamic.ppp.as
+test      8851     1  0 23:07 ?        00:00:00 /lib/systemd/systemd --user
+test      8852  8851  0 23:07 ?        00:00:00 (sd-pam)
+test      8859  8777  2 23:07 pts/0    00:00:00 -bash
+test      8905  8778  2 23:07 pts/1    00:00:00 -bash
+test      8917  8780  2 23:07 pts/2    00:00:00 -bash
+test      8930  8779  1 23:07 pts/3    00:00:00 -bash
+test      8978  8859  0 23:07 pts/0    00:00:00 ps -ef
+test@ip-172-31-29-205:~$ 
+test@ip-172-31-29-205:~$ last
+test     pts/3        ab161101.dynamic Fri Jun  1 23:07   still running
+test     pts/2        ab161101.dynamic Fri Jun  1 23:07   still running
+test     pts/1        ab161101.dynamic Fri Jun  1 23:07   still logged in
+test     pts/0        ab161101.dynamic Fri Jun  1 23:07   still logged in
+test     pts/3        ab161101.dynamic Fri Jun  1 23:06 - 23:06  (00:00)
+test     pts/1        ab161101.dynamic Fri Jun  1 23:06 - 23:06  (00:00)
+test     pts/2        ab161101.dynamic Fri Jun  1 23:06 - 23:06  (00:00)
+test     pts/0        ab161101.dynamic Fri Jun  1 23:06 - 23:06  (00:00)
+n1.inoue pts/0        183.76.161.101   Fri Jun  1 22:58 - 23:05  (00:06)
+reboot   system boot  4.4.0-1060-aws   Fri Jun  1 22:56   still running
+n1.inoue pts/0        202.226.240.35   Tue May 29 09:32 - 09:34  (00:02)
+reboot   system boot  4.4.0-1060-aws   Tue May 29 09:26   still running
+n1.inoue pts/0        183.76.161.101   Sat May 26 23:50 - 23:52  (00:02)
+test     pts/0        ab161101.dynamic Sat May 26 23:31 - 23:32  (00:00)
+test     pts/3        ab161101.dynamic Sat May 26 23:31 - 23:31  (00:00)
+test     pts/2        ab161101.dynamic Sat May 26 23:31 - 23:31  (00:00)
+test     pts/1        ab161101.dynamic Sat May 26 23:31 - 23:32  (00:00)
+test     pts/3        ab161101.dynamic Sat May 26 23:31 - 23:31  (00:00)
+test     pts/2        ab161101.dynamic Sat May 26 23:31 - 23:31  (00:00)
+test     pts/1        ab161101.dynamic Sat May 26 23:31 - 23:31  (00:00)
+test     pts/0        ab161101.dynamic Sat May 26 23:31 - 23:31  (00:00)
+test     pts/3        ab161101.dynamic Sat May 26 23:31 - 23:31  (00:00)
+test     pts/2        ab161101.dynamic Sat May 26 23:31 - 23:31  (00:00)
+test     pts/1        ab161101.dynamic Sat May 26 23:31 - 23:31  (00:00)
+test     pts/0        ab161101.dynamic Sat May 26 23:31 - 23:31  (00:00)
+test     pts/10       ab161101.dynamic Sat May 26 23:30 - 23:30  (00:00)
+test     pts/11       ab161101.dynamic Sat May 26 23:30 - 23:30  (00:00)
+test     pts/8        ab161101.dynamic Sat May 26 23:30 - 23:30  (00:00)
+test     pts/7        ab161101.dynamic Sat May 26 23:30 - 23:30  (00:00)
+test     pts/6        ab161101.dynamic Sat May 26 23:30 - 23:30  (00:00)
+test     pts/9        ab161101.dynamic Sat May 26 23:30 - 23:30  (00:00)
+test     pts/5        ab161101.dynamic Sat May 26 23:30 - 23:30  (00:00)
+test     pts/4        ab161101.dynamic Sat May 26 23:30 - 23:30  (00:00)
+test     pts/3        ab161101.dynamic Sat May 26 23:30 - 23:30  (00:00)
+test     pts/1        ab161101.dynamic Sat May 26 23:30 - 23:30  (00:00)
+test     pts/0        ab161101.dynamic Sat May 26 23:30 - 23:30  (00:00)
+test     pts/2        ab161101.dynamic Sat May 26 23:30 - 23:30  (00:00)
+test     pts/9        ab161101.dynamic Sat May 26 23:28 - 23:29  (00:00)
+test     pts/10       ab161101.dynamic Sat May 26 23:28 - 23:29  (00:00)
+test     pts/11       ab161101.dynamic Sat May 26 23:28 - 23:29  (00:00)
+test     pts/8        ab161101.dynamic Sat May 26 23:28 - 23:29  (00:00)
+test     pts/7        ab161101.dynamic Sat May 26 23:28 - 23:29  (00:00)
+test     pts/6        ab161101.dynamic Sat May 26 23:28 - 23:28  (00:00)
+test     pts/4        ab161101.dynamic Sat May 26 23:28 - 23:29  (00:00)
+test     pts/5        ab161101.dynamic Sat May 26 23:28 - 23:29  (00:00)
+test     pts/3        ab161101.dynamic Sat May 26 23:28 - 23:29  (00:00)
+test     pts/0        ab161101.dynamic Sat May 26 23:28 - 23:29  (00:00)
+test     pts/2        ab161101.dynamic Sat May 26 23:28 - 23:29  (00:00)
+test     pts/1        ab161101.dynamic Sat May 26 23:28 - 23:29  (00:00)
+n1.inoue pts/0        183.76.161.101   Sat May 26 23:09 - 23:14  (00:04)
+reboot   system boot  4.4.0-1060-aws   Sat May 26 23:08 - 23:52  (00:44)
+n1.inoue pts/0        183.76.161.101   Sat May 26 13:36 - 13:48  (00:11)
+reboot   system boot  4.4.0-1060-aws   Sat May 26 13:35 - 13:48  (00:12)
+n1.inoue pts/0        183.76.161.101   Sat May 26 13:24 - 13:34  (00:09)
+reboot   system boot  4.4.0-1060-aws   Sat May 26 13:21 - 13:34  (00:13)
+n1.inoue pts/0        183.76.161.101   Fri May 25 00:37 - 00:39  (00:01)
+test     pts/0        ab161101.dynamic Thu May 24 20:54 - 20:54  (00:00)
+test     pts/3        ab161101.dynamic Thu May 24 20:53 - 20:54  (00:00)
+test     pts/2        ab161101.dynamic Thu May 24 20:53 - 20:54  (00:00)
+test     pts/1        ab161101.dynamic Thu May 24 20:53 - 20:54  (00:00)
+test     pts/3        ab161101.dynamic Thu May 24 20:53 - 20:53  (00:00)
+test     pts/2        ab161101.dynamic Thu May 24 20:53 - 20:53  (00:00)
+test     pts/1        ab161101.dynamic Thu May 24 20:53 - 20:53  (00:00)
+test     pts/0        ab161101.dynamic Thu May 24 20:53 - 20:54  (00:00)
+test     pts/3        ab161101.dynamic Thu May 24 20:52 - 20:53  (00:00)
+test     pts/0        ab161101.dynamic Thu May 24 20:52 - 20:53  (00:00)
+test     pts/2        ab161101.dynamic Thu May 24 20:52 - 20:53  (00:00)
+test     pts/1        ab161101.dynamic Thu May 24 20:52 - 20:53  (00:00)
+test     pts/3        ab161101.dynamic Thu May 24 20:46 - 20:46  (00:00)
+test     pts/2        ab161101.dynamic Thu May 24 20:46 - 20:46  (00:00)
+test     pts/1        ab161101.dynamic Thu May 24 20:46 - 20:46  (00:00)
+test     pts/0        ab161101.dynamic Thu May 24 20:46 - 20:46  (00:00)
+test     pts/0        ab161101.dynamic Thu May 24 20:46 - 20:46  (00:00)
+test     pts/3        ab161101.dynamic Thu May 24 20:46 - 20:46  (00:00)
+test     pts/2        ab161101.dynamic Thu May 24 20:46 - 20:46  (00:00)
+test     pts/1        ab161101.dynamic Thu May 24 20:46 - 20:46  (00:00)
+test     pts/3        ab161101.dynamic Thu May 24 20:45 - 20:45  (00:00)
+test     pts/2        ab161101.dynamic Thu May 24 20:45 - 20:46  (00:00)
+test     pts/1        ab161101.dynamic Thu May 24 20:45 - 20:45  (00:00)
+test     pts/0        ab161101.dynamic Thu May 24 20:45 - 20:46  (00:00)
+test     pts/2        ab161101.dynamic Thu May 24 20:08 - 20:08  (00:00)
+test     pts/3        ab161101.dynamic Thu May 24 20:08 - 20:08  (00:00)
+test     pts/0        ab161101.dynamic Thu May 24 20:08 - 20:08  (00:00)
+test     pts/1        ab161101.dynamic Thu May 24 20:08 - 20:08  (00:00)
+test     pts/0        ab161101.dynamic Thu May 24 20:08 - 20:08  (00:00)
+test     pts/3        ab161101.dynamic Thu May 24 20:08 - 20:08  (00:00)
+test     pts/2        ab161101.dynamic Thu May 24 20:08 - 20:08  (00:00)
+test     pts/1        ab161101.dynamic Thu May 24 20:08 - 20:08  (00:00)
+test     pts/3        ab161101.dynamic Thu May 24 20:07 - 20:08  (00:00)
+test     pts/2        ab161101.dynamic Thu May 24 20:07 - 20:08  (00:00)
+test     pts/1        ab161101.dynamic Thu May 24 20:07 - 20:08  (00:00)
+test     pts/0        ab161101.dynamic Thu May 24 20:07 - 20:08  (00:00)
+test     pts/0        ab161101.dynamic Thu May 24 20:07 - 20:07  (00:00)
+test     pts/0        ab161101.dynamic Thu May 24 20:07 - 20:07  (00:00)
+test     pts/2        ab161101.dynamic Thu May 24 20:07 - 20:07  (00:00)
+test     pts/1        ab161101.dynamic Thu May 24 20:07 - 20:07  (00:00)
+test     pts/2        ab161101.dynamic Thu May 24 20:06 - 20:06  (00:00)
+test     pts/1        ab161101.dynamic Thu May 24 20:06 - 20:06  (00:00)
+test     pts/0        ab161101.dynamic Thu May 24 20:06 - 20:07  (00:00)
+test     pts/3        ab161101.dynamic Thu May 24 20:06 - 20:06  (00:00)
+test     pts/1        ab161101.dynamic Thu May 24 20:06 - 20:06  (00:00)
+test     pts/2        ab161101.dynamic Thu May 24 20:06 - 20:06  (00:00)
+test     pts/0        ab161101.dynamic Thu May 24 20:06 - 20:06  (00:00)
+test     pts/0        ab161101.dynamic Thu May 24 19:37 - 19:38  (00:00)
+test     pts/0        ab161101.dynamic Thu May 24 19:31 - 19:33  (00:01)
+test     pts/0        ab161101.dynamic Thu May 24 19:30 - 19:30  (00:00)
+test     pts/0        ab161101.dynamic Thu May 24 19:29 - 19:30  (00:00)
+test     pts/0        ab161101.dynamic Thu May 24 19:29 - 19:29  (00:00)
+test     pts/3        ab161101.dynamic Thu May 24 19:29 - 19:29  (00:00)
+test     pts/1        ab161101.dynamic Thu May 24 19:29 - 19:29  (00:00)
+test     pts/3        ab161101.dynamic Thu May 24 19:29 - 19:29  (00:00)
+test     pts/2        ab161101.dynamic Thu May 24 19:29 - 19:29  (00:00)
+test     pts/1        ab161101.dynamic Thu May 24 19:29 - 19:29  (00:00)
+test     pts/0        ab161101.dynamic Thu May 24 19:29 - 19:29  (00:00)
+test     pts/1        ab161101.dynamic Thu May 24 19:26 - 19:26  (00:00)
+test     pts/3        ab161101.dynamic Thu May 24 19:26 - 19:28  (00:02)
+test     pts/3        ab161101.dynamic Thu May 24 19:25 - 19:25  (00:00)
+test     pts/1        ab161101.dynamic Thu May 24 19:25 - 19:25  (00:00)
+test     pts/3        ab161101.dynamic Thu May 24 19:25 - 19:25  (00:00)
+test     pts/0        ab161101.dynamic Thu May 24 19:25 - 19:28  (00:02)
+test     pts/3        ab161101.dynamic Thu May 24 19:25 - 19:25  (00:00)
+test     pts/1        ab161101.dynamic Thu May 24 19:25 - 19:25  (00:00)
+test     pts/3        ab161101.dynamic Thu May 24 19:24 - 19:24  (00:00)
+test     pts/2        ab161101.dynamic Thu May 24 19:24 - 19:27  (00:03)
+test     pts/1        ab161101.dynamic Thu May 24 19:24 - 19:25  (00:00)
+test     pts/0        ab161101.dynamic Thu May 24 19:24 - 19:25  (00:00)
+test     pts/3        ab161101.dynamic Thu May 24 18:40 - 18:40  (00:00)
+test     pts/2        ab161101.dynamic Thu May 24 18:40 - 18:40  (00:00)
+test     pts/1        ab161101.dynamic Thu May 24 18:40 - 18:40  (00:00)
+test     pts/0        ab161101.dynamic Thu May 24 18:40 - 18:40  (00:00)
+test     pts/3        ab161101.dynamic Thu May 24 18:40 - 18:40  (00:00)
+test     pts/2        ab161101.dynamic Thu May 24 18:40 - 18:40  (00:00)
+test     pts/1        ab161101.dynamic Thu May 24 18:40 - 18:40  (00:00)
+test     pts/0        ab161101.dynamic Thu May 24 18:40 - 18:40  (00:00)
+test     pts/3        ab161101.dynamic Thu May 24 18:40 - 18:40  (00:00)
+test     pts/2        ab161101.dynamic Thu May 24 18:40 - 18:40  (00:00)
+test     pts/1        ab161101.dynamic Thu May 24 18:40 - 18:40  (00:00)
+test     pts/0        ab161101.dynamic Thu May 24 18:40 - 18:40  (00:00)
+test     pts/3        ab161101.dynamic Thu May 24 18:38 - 18:38  (00:00)
+test     pts/2        ab161101.dynamic Thu May 24 18:38 - 18:38  (00:00)
+test     pts/1        ab161101.dynamic Thu May 24 18:38 - 18:38  (00:00)
+test     pts/0        ab161101.dynamic Thu May 24 18:38 - 18:38  (00:00)
+test     pts/3        ab161101.dynamic Thu May 24 18:37 - 18:38  (00:00)
+test     pts/2        ab161101.dynamic Thu May 24 18:37 - 18:38  (00:00)
+test     pts/1        ab161101.dynamic Thu May 24 18:37 - 18:38  (00:00)
+test     pts/0        ab161101.dynamic Thu May 24 18:37 - 18:38  (00:00)
+test     pts/3        ab161101.dynamic Thu May 24 18:37 - 18:37  (00:00)
+test     pts/2        ab161101.dynamic Thu May 24 18:37 - 18:37  (00:00)
+test     pts/0        ab161101.dynamic Thu May 24 18:37 - 18:37  (00:00)
+test     pts/1        ab161101.dynamic Thu May 24 18:37 - 18:37  (00:00)
+test     pts/3        ab161101.dynamic Thu May 24 18:26 - 18:27  (00:00)
+test     pts/2        ab161101.dynamic Thu May 24 18:26 - 18:27  (00:00)
+test     pts/1        ab161101.dynamic Thu May 24 18:26 - 18:27  (00:00)
+test     pts/0        ab161101.dynamic Thu May 24 18:26 - 18:27  (00:00)
+test     pts/3        ab161101.dynamic Thu May 24 18:26 - 18:26  (00:00)
+test     pts/2        ab161101.dynamic Thu May 24 18:26 - 18:26  (00:00)
+test     pts/1        ab161101.dynamic Thu May 24 18:26 - 18:26  (00:00)
+test     pts/0        ab161101.dynamic Thu May 24 18:26 - 18:26  (00:00)
+test     pts/3        ab161101.dynamic Thu May 24 18:26 - 18:26  (00:00)
+test     pts/2        ab161101.dynamic Thu May 24 18:26 - 18:26  (00:00)
+test     pts/0        ab161101.dynamic Thu May 24 18:26 - 18:26  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:58 - 16:58  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:58 - 16:58  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:58 - 16:58  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:58 - 16:58  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:58 - 16:58  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:57 - 16:57  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:57 - 16:57  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:57 - 16:57  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:57 - 16:57  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:57 - 16:57  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:57 - 16:57  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:57 - 16:57  (00:00)
+test     pts/10       202-226-240-35.p Thu May 24 16:35 - 16:35  (00:00)
+test     pts/11       202-226-240-35.p Thu May 24 16:35 - 16:35  (00:00)
+test     pts/7        202-226-240-35.p Thu May 24 16:35 - 16:35  (00:00)
+test     pts/8        202-226-240-35.p Thu May 24 16:35 - 16:35  (00:00)
+test     pts/9        202-226-240-35.p Thu May 24 16:35 - 16:35  (00:00)
+test     pts/4        202-226-240-35.p Thu May 24 16:35 - 16:35  (00:00)
+test     pts/6        202-226-240-35.p Thu May 24 16:35 - 16:35  (00:00)
+test     pts/5        202-226-240-35.p Thu May 24 16:35 - 16:35  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 16:35 - 16:35  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 16:35 - 16:35  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 16:35 - 16:35  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:35 - 16:35  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 16:35 - 16:35  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 16:35 - 16:35  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 16:35 - 16:35  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:35 - 16:35  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 16:35 - 16:35  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 16:35 - 16:35  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 16:35 - 16:35  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:35 - 16:35  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 16:35 - 16:35  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 16:35 - 16:35  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 16:35 - 16:35  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:35 - 16:35  (00:00)
+test     pts/11       202-226-240-35.p Thu May 24 16:26 - 16:26  (00:00)
+test     pts/10       202-226-240-35.p Thu May 24 16:26 - 16:26  (00:00)
+test     pts/9        202-226-240-35.p Thu May 24 16:26 - 16:26  (00:00)
+test     pts/6        202-226-240-35.p Thu May 24 16:26 - 16:26  (00:00)
+test     pts/8        202-226-240-35.p Thu May 24 16:26 - 16:26  (00:00)
+test     pts/7        202-226-240-35.p Thu May 24 16:26 - 16:26  (00:00)
+test     pts/4        202-226-240-35.p Thu May 24 16:26 - 16:26  (00:00)
+test     pts/5        202-226-240-35.p Thu May 24 16:26 - 16:26  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 16:26 - 16:26  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 16:26 - 16:26  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 16:26 - 16:26  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:26 - 16:26  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 16:25 - 16:25  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 16:25 - 16:25  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 16:25 - 16:25  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:25 - 16:25  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 16:25 - 16:25  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 16:25 - 16:25  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 16:25 - 16:25  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:25 - 16:25  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 16:25 - 16:25  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 16:25 - 16:25  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 16:25 - 16:25  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:25 - 16:25  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 16:22 - 16:22  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 16:22 - 16:22  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 16:22 - 16:22  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:22 - 16:22  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 16:21 - 16:21  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 16:21 - 16:21  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 16:21 - 16:21  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:21 - 16:21  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 16:21 - 16:21  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 16:21 - 16:21  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 16:21 - 16:21  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:21 - 16:21  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 16:20 - 16:20  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 16:20 - 16:20  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 16:20 - 16:20  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:20 - 16:20  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 16:20 - 16:20  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 16:20 - 16:20  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 16:20 - 16:20  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:20 - 16:20  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 16:20 - 16:20  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 16:20 - 16:20  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 16:20 - 16:20  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:20 - 16:20  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 16:09 - 16:09  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 16:09 - 16:09  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 16:09 - 16:09  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:09 - 16:09  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:08 - 16:08  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 16:08 - 16:08  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 16:08 - 16:08  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:08 - 16:08  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 16:08 - 16:08  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 16:08 - 16:08  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 16:08 - 16:08  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:08 - 16:08  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:07 - 16:07  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:07 - 16:07  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:06 - 16:06  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:04 - 16:05  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:04 - 16:04  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 16:02 - 16:02  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 15:59 - 16:00  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 15:58 - 15:58  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 15:58 - 15:58  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 15:56 - 15:57  (00:01)
+test     pts/3        202-226-240-35.p Thu May 24 15:53 - 15:53  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 15:53 - 15:53  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 15:53 - 15:53  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 15:53 - 15:53  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 15:52 - 15:53  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 15:52 - 15:53  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 15:52 - 15:53  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 15:52 - 15:53  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 15:52 - 15:52  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 15:52 - 15:52  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 15:52 - 15:52  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 15:52 - 15:52  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 15:47 - 15:47  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 15:47 - 15:47  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 15:47 - 15:47  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 15:47 - 15:47  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 15:47 - 15:47  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 15:47 - 15:47  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 15:47 - 15:47  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 15:47 - 15:47  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 15:47 - 15:47  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 15:47 - 15:47  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 15:47 - 15:47  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 15:47 - 15:47  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 15:46 - 15:46  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 15:46 - 15:46  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 15:46 - 15:46  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 15:46 - 15:46  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 15:45 - 15:46  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 15:45 - 15:46  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 15:45 - 15:46  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 15:45 - 15:46  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 15:45 - 15:45  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 15:45 - 15:45  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 15:45 - 15:45  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 15:45 - 15:45  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 15:43 - 15:43  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 15:43 - 15:43  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 15:43 - 15:43  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 15:43 - 15:43  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 15:43 - 15:43  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 15:43 - 15:43  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 15:43 - 15:43  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 15:43 - 15:43  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 15:42 - 15:42  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 15:42 - 15:42  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 15:42 - 15:42  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 15:42 - 15:42  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 15:40 - 15:40  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 15:40 - 15:40  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 15:40 - 15:40  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 15:40 - 15:40  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 15:40 - 15:40  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 15:40 - 15:40  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 15:40 - 15:40  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 15:40 - 15:40  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 15:39 - 15:39  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 15:39 - 15:39  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 15:39 - 15:39  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 15:39 - 15:39  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 15:33 - 15:33  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 15:33 - 15:33  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 15:33 - 15:33  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 15:33 - 15:33  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 15:33 - 15:33  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 15:33 - 15:33  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 15:33 - 15:33  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 15:33 - 15:33  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 15:33 - 15:33  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 15:33 - 15:33  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 15:33 - 15:33  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 15:32 - 15:33  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 13:11 - 13:11  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 13:11 - 13:11  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 13:11 - 13:11  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 13:11 - 13:11  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 13:11 - 13:11  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 13:11 - 13:11  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 13:11 - 13:11  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 13:11 - 13:11  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 13:10 - 13:10  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 13:10 - 13:10  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 13:10 - 13:10  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 13:10 - 13:10  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 13:10 - 13:10  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 13:10 - 13:10  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 13:09 - 13:09  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 13:09 - 13:09  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 13:09 - 13:09  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 13:09 - 13:09  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 13:09 - 13:09  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 13:09 - 13:09  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 13:09 - 13:09  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 13:09 - 13:09  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 13:09 - 13:09  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 13:09 - 13:09  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 13:02 - 13:02  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 13:02 - 13:02  (00:00)
+test     pts/3        202-226-240-35.p Thu May 24 13:02 - 13:02  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 13:02 - 13:02  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 13:02 - 13:02  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 13:02 - 13:02  (00:00)
+test     pts/2        202-226-240-35.p Thu May 24 13:01 - 13:01  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 13:01 - 13:01  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 13:01 - 13:01  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 13:01 - 13:01  (00:00)
+test     pts/1        202-226-240-35.p Thu May 24 13:01 - 13:01  (00:00)
+test     pts/0        202-226-240-35.p Thu May 24 13:01 - 13:01  (00:00)
+reboot   system boot  4.4.0-1060-aws   Thu May 24 12:52 - 13:34 (2+00:41)
+n1.inoue pts/0        202.226.240.35   Wed May 23 15:57 - 15:58  (00:00)
+test     pts/3        202-226-240-35.p Wed May 23 14:53 - 14:53  (00:00)
+test     pts/2        202-226-240-35.p Wed May 23 14:53 - 14:53  (00:00)
+test     pts/1        202-226-240-35.p Wed May 23 14:53 - 14:53  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 14:53 - 14:53  (00:00)
+test     pts/3        202-226-240-35.p Wed May 23 14:53 - 14:53  (00:00)
+test     pts/2        202-226-240-35.p Wed May 23 14:53 - 14:53  (00:00)
+test     pts/1        202-226-240-35.p Wed May 23 14:53 - 14:53  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 14:53 - 14:53  (00:00)
+test     pts/3        202-226-240-35.p Wed May 23 14:53 - 14:53  (00:00)
+test     pts/2        202-226-240-35.p Wed May 23 14:53 - 14:53  (00:00)
+test     pts/1        202-226-240-35.p Wed May 23 14:53 - 14:53  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 14:53 - 14:53  (00:00)
+test     pts/3        202-226-240-35.p Wed May 23 14:18 - 14:18  (00:00)
+test     pts/2        202-226-240-35.p Wed May 23 14:18 - 14:18  (00:00)
+test     pts/1        202-226-240-35.p Wed May 23 14:18 - 14:18  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 14:18 - 14:18  (00:00)
+test     pts/3        202-226-240-35.p Wed May 23 14:18 - 14:18  (00:00)
+test     pts/2        202-226-240-35.p Wed May 23 14:18 - 14:18  (00:00)
+test     pts/1        202-226-240-35.p Wed May 23 14:18 - 14:18  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 14:18 - 14:18  (00:00)
+test     pts/3        202-226-240-35.p Wed May 23 14:17 - 14:18  (00:00)
+test     pts/2        202-226-240-35.p Wed May 23 14:17 - 14:18  (00:00)
+test     pts/1        202-226-240-35.p Wed May 23 14:17 - 14:18  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 14:17 - 14:18  (00:00)
+test     pts/2        202-226-240-35.p Wed May 23 14:15 - 14:15  (00:00)
+test     pts/1        202-226-240-35.p Wed May 23 14:15 - 14:15  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 14:15 - 14:15  (00:00)
+test     pts/3        202-226-240-35.p Wed May 23 14:15 - 14:15  (00:00)
+test     pts/2        202-226-240-35.p Wed May 23 14:15 - 14:15  (00:00)
+test     pts/1        202-226-240-35.p Wed May 23 14:15 - 14:15  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 14:15 - 14:15  (00:00)
+test     pts/3        202-226-240-35.p Wed May 23 14:15 - 14:15  (00:00)
+test     pts/2        202-226-240-35.p Wed May 23 14:15 - 14:15  (00:00)
+test     pts/1        202-226-240-35.p Wed May 23 14:15 - 14:15  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 14:15 - 14:15  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 14:15 - 14:15  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 14:13 - 14:13  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 14:13 - 14:13  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 14:11 - 14:11  (00:00)
+test     pts/3        202-226-240-35.p Wed May 23 14:11 - 14:11  (00:00)
+test     pts/2        202-226-240-35.p Wed May 23 14:11 - 14:11  (00:00)
+test     pts/1        202-226-240-35.p Wed May 23 14:11 - 14:11  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 14:11 - 14:11  (00:00)
+test     pts/3        202-226-240-35.p Wed May 23 14:11 - 14:11  (00:00)
+test     pts/2        202-226-240-35.p Wed May 23 14:11 - 14:11  (00:00)
+test     pts/1        202-226-240-35.p Wed May 23 14:11 - 14:11  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 14:11 - 14:11  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 14:10 - 14:10  (00:00)
+test     pts/3        202-226-240-35.p Wed May 23 14:10 - 14:10  (00:00)
+test     pts/2        202-226-240-35.p Wed May 23 14:10 - 14:10  (00:00)
+test     pts/1        202-226-240-35.p Wed May 23 14:10 - 14:10  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 14:10 - 14:10  (00:00)
+test     pts/3        202-226-240-35.p Wed May 23 14:10 - 14:10  (00:00)
+test     pts/2        202-226-240-35.p Wed May 23 14:10 - 14:10  (00:00)
+test     pts/1        202-226-240-35.p Wed May 23 14:10 - 14:10  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 14:10 - 14:10  (00:00)
+test     pts/3        202-226-240-35.p Wed May 23 13:57 - 13:57  (00:00)
+test     pts/2        202-226-240-35.p Wed May 23 13:57 - 13:57  (00:00)
+test     pts/1        202-226-240-35.p Wed May 23 13:57 - 13:57  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 13:57 - 13:57  (00:00)
+test     pts/3        202-226-240-35.p Wed May 23 13:57 - 13:57  (00:00)
+test     pts/2        202-226-240-35.p Wed May 23 13:57 - 13:57  (00:00)
+test     pts/1        202-226-240-35.p Wed May 23 13:57 - 13:57  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 13:57 - 13:57  (00:00)
+test     pts/3        202-226-240-35.p Wed May 23 13:57 - 13:57  (00:00)
+test     pts/2        202-226-240-35.p Wed May 23 13:57 - 13:57  (00:00)
+test     pts/1        202-226-240-35.p Wed May 23 13:57 - 13:57  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 13:57 - 13:57  (00:00)
+test     pts/3        202-226-240-35.p Wed May 23 13:56 - 13:57  (00:00)
+test     pts/2        202-226-240-35.p Wed May 23 13:56 - 13:57  (00:00)
+test     pts/1        202-226-240-35.p Wed May 23 13:56 - 13:57  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 13:56 - 13:57  (00:00)
+test     pts/3        202-226-240-35.p Wed May 23 13:56 - 13:56  (00:00)
+test     pts/2        202-226-240-35.p Wed May 23 13:56 - 13:56  (00:00)
+test     pts/1        202-226-240-35.p Wed May 23 13:56 - 13:56  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 13:56 - 13:56  (00:00)
+test     pts/3        202-226-240-35.p Wed May 23 13:56 - 13:56  (00:00)
+test     pts/2        202-226-240-35.p Wed May 23 13:56 - 13:56  (00:00)
+test     pts/1        202-226-240-35.p Wed May 23 13:56 - 13:56  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 13:56 - 13:56  (00:00)
+test     pts/3        202-226-240-35.p Wed May 23 13:56 - 13:56  (00:00)
+test     pts/2        202-226-240-35.p Wed May 23 13:56 - 13:56  (00:00)
+test     pts/1        202-226-240-35.p Wed May 23 13:56 - 13:56  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 13:56 - 13:56  (00:00)
+test     pts/3        202-226-240-35.p Wed May 23 13:56 - 13:56  (00:00)
+test     pts/2        202-226-240-35.p Wed May 23 13:56 - 13:56  (00:00)
+test     pts/1        202-226-240-35.p Wed May 23 13:56 - 13:56  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 13:56 - 13:56  (00:00)
+test     pts/3        202-226-240-35.p Wed May 23 13:56 - 13:56  (00:00)
+test     pts/2        202-226-240-35.p Wed May 23 13:56 - 13:56  (00:00)
+test     pts/1        202-226-240-35.p Wed May 23 13:56 - 13:56  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 13:56 - 13:56  (00:00)
+test     pts/3        202-226-240-35.p Wed May 23 13:56 - 13:56  (00:00)
+test     pts/2        202-226-240-35.p Wed May 23 13:56 - 13:56  (00:00)
+test     pts/1        202-226-240-35.p Wed May 23 13:56 - 13:56  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 13:56 - 13:56  (00:00)
+test     pts/3        202-226-240-35.p Wed May 23 13:55 - 13:55  (00:00)
+test     pts/2        202-226-240-35.p Wed May 23 13:55 - 13:55  (00:00)
+test     pts/1        202-226-240-35.p Wed May 23 13:55 - 13:55  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 13:55 - 13:55  (00:00)
+test     pts/3        202-226-240-35.p Wed May 23 13:55 - 13:55  (00:00)
+test     pts/2        202-226-240-35.p Wed May 23 13:55 - 13:55  (00:00)
+test     pts/1        202-226-240-35.p Wed May 23 13:55 - 13:55  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 13:55 - 13:55  (00:00)
+test     pts/3        202-226-240-35.p Wed May 23 13:54 - 13:54  (00:00)
+test     pts/2        202-226-240-35.p Wed May 23 13:54 - 13:54  (00:00)
+test     pts/1        202-226-240-35.p Wed May 23 13:54 - 13:54  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 13:54 - 13:54  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 13:52 - 13:53  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 13:46 - 13:46  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 13:46 - 13:46  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 13:43 - 13:44  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 13:43 - 13:43  (00:00)
+test     pts/2        202-226-240-35.p Wed May 23 13:42 - 13:42  (00:00)
+test     pts/1        202-226-240-35.p Wed May 23 13:42 - 13:42  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 13:42 - 13:42  (00:00)
+test     pts/1        202-226-240-35.p Wed May 23 13:41 - 13:41  (00:00)
+test     pts/0        202-226-240-35.p Wed May 23 13:41 - 13:41  (00:00)
+
+wtmp begins Wed May 23 13:41:47 2018
+test@ip-172-31-29-205:~$ 
+test@ip-172-31-29-205:~$ exit
+ログアウト
