@@ -1,3 +1,6 @@
 $proc = Start-Process -PassThru "notepad.exe"
-Write-Host "`$proc.Id = "$proc.Id
+
+$ProcessID = $proc.Id
+Write-Host "ProcessID = $ProcessID is started."
+
 $proc.WaitForExit()
