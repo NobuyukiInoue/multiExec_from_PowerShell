@@ -1,20 +1,20 @@
 param( $cmd, $exitWait )
 
 if (-Not($cmd)) {
-    Write-Host "Usage : WSH_Exec1.ps1 <Execute-Command> <exitWait>"
-    exit
+	Write-Host "Usage : WSH_Exec1.ps1 <Execute-Command> <exitWait>"
+	exit
 }
 
 if (-Not($exitWait)) {
-    $exitWait = $FALSE
+	$exitWait = $FALSE
 }
 else {
-    if ( $exitWait -gt 0 ) {
-        $exitWait = $TRUE
-    }
-    else {
-        $exitWait = $FALSE
-    }
+	if ( $exitWait -gt 0 ) {
+		$exitWait = $TRUE
+	}
+	else {
+		$exitWait = $FALSE
+	}
 }
 
 $WshShell = New-Object -ComObject WScript.Shell
