@@ -1,7 +1,7 @@
 param( $cmd, $exitWait )
 
 if (-Not($cmd)) {
-	Write-Host "Usage : Exec_DOTNET2.ps1 <Execute-Command> <exitWait>"
+	Write-Host "Usage : Exec_DOTNET2.ps1 ExecCommand <exitWait>"
 	exit
 }
 
