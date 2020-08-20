@@ -22,7 +22,7 @@ multiExec_from_PS.ps1 is a script that executes commands in parallel in multiple
 ## Execution command example
 
 ```
-S> .\multiExec_from_PS.ps1 .\cmdList.txt 4 -enable_log_stdout true -enable_log_stderr true
+PS D:\multiExec_from_PS> .\multiExec_from_PS.ps1 .\cmdList.txt 4 -enable_log_stdout true -enable_log_stderr true
 $cmdListFileName = .\cmdList.txt
 $maxProcessCount = 4
 $startInterval = 0
@@ -65,7 +65,7 @@ PID =  3716
 .\log_multiexec\line_8_stderr.txt
 PID =  12936
 multiExec_from_PS.ps1 is Done...
-PS D:\n1.inoue\OneDrive\Develop-Works\LANGS\PowerShell\PS_Work\multiExec_from_PS>
+PS D:\multiExec_from_PS>
 ```
 
 ## LICENSE
